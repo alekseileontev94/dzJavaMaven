@@ -50,6 +50,7 @@ public class BonusServiceTest {
 
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     void testUnegisteredL() {
         BonusService service = new BonusService();
